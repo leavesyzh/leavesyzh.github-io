@@ -88,16 +88,18 @@ engine_search:
 
 # If you want to use it, you need config algolia appID in _config.yml!!!
 # https://github.com/oncletom/hexo-algolia
-algolia_search:
-  enable: true
-  # ...
+algolia:
+  applicationID: "2S652WIENN"
+  apiKey: "72aaf6fedb20656ca2824c63c5767f1f"
+  indexName: "my-hexo-blog"
+  chunkSize: 5000
 
 google_analytics:
-  enable: true
+  enable: false
   id: G-1LL0D86CY9
 
 google_adsense:
-  enable: true
+  enable: false
   client: ca-pub-2245427233262012
 
 post_edit:
